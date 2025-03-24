@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+}
+header{
+    background-color: rgb(80, 149, 158);
+}
+nav{
+    width: 70%;
+    margin: auto;
+    height: 80px;
+    font-size: 1.3rem;
+}
+nav ul{
+    padding-top: 10px;
+}
+
+
+footer{
+    background-color: rgba(80, 149, 158, 0.586);
+    height: 350px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.auth-section{
+    width: 100%;
+    background-color: aquamarine;
+}
+.auth-main{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
