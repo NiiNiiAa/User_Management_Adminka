@@ -92,7 +92,7 @@ header{
 nav{
     width: 70%;
     margin: auto;
-    height: 80px;
+    /* height: 80px; */
     font-size: 1.3rem;
 }
 nav ul{
@@ -102,14 +102,22 @@ nav ul{
 
 footer{
     background-color: rgba(80, 149, 158, 0.586);
-    height: 350px;
+    height: 40px;
     display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-
+.footer-div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+}
 .auth-section{
     width: 100%;
     background-color: aquamarine;
@@ -117,5 +125,57 @@ footer{
 .auth-main{
     display: block;
     width: 50%;
+}
+
+
+.about-section{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    margin-bottom: 30px;
+}
+
+.about-us{
+    width: 50%;
     margin: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.about-cards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+  
+}
+.about-card1{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.about-card2{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.about-card3{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.about-img{
+    border-radius: 50%;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.about-names{
+    text-align: center;
+    margin-top: 10px;
 }

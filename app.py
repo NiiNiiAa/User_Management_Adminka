@@ -15,9 +15,9 @@ def auth():
 def register():
     return render_template("register.html")
 
-@app.route("/contact")
+@app.route("/about")
 def contact():
-    return render_template("contact.html")
+    return render_template("about.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
