@@ -13,12 +13,12 @@
     <header>
         <nav class="hi navigation text-decoration-none navbar  d-flex ">
             <ul class="list-unstyled gap-5  d-flex gap-5 ">
-                <a href="" class=" text-decoration-none  text-light" ><li >Home</li></a>
-                <a href="" class="text-decoration-none  text-light"> <li>About Us</li></a>
+                <a href="{{url_for('home')}}" class=" text-decoration-none  text-light" ><li >Home</li></a>
+                <a href="{{url_for('about')}}" class="text-decoration-none  text-light"> <li>About Us</li></a>
             </ul>
             <ul class="list-unstyled d-flex gap-5 ">   
-                <a href="" class=" text-decoration-none  text-light" ><li >Authorization</li></a>
-                <a href="" class="text-decoration-none  text-light"> <li>Registration</li></a>
+                <a href="{{url_for('auth')}}" class=" text-decoration-none  text-light" ><li >Authorization</li></a>
+                <a href="{{url_for('register')}}" class="text-decoration-none  text-light"> <li>Registration</li></a>
             </ul>
         </nav>
     </header>
